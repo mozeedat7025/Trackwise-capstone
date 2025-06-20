@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: var(--poppins);
+}
+
+:root {
+   --poppins: 'Poppins', sans-serif;
+}
+
+body {
+   display: flex;
+   justify-content:center;
+   width: 100%;
+   min-height: 100vh;
+   background-color: #D5EFED;
+   padding: 5rem;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   max-width: 1024px;
+   gap:4rem;
+}
+
+.left {
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   max-width: 450px;
+   max-height: 700px;
+   padding: 3rem;
+}
+
+img{
+   max-width: 350px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.box {
+   font-size: 0.75rem;
+   text-align: center;
+   line-height: 1rem;
+}
+
+.box p {
+   margin-top: 0.50rem;
+   line-height: 0.70rem;
+}
+
+.btn1-foot{
+   display: flex;
+   justify-content: space-between;
+   background-color: #D5EFED;
+   width:5rem;
+   height: 0.30rem;
+}
+
+.btnID{
+   width:4rem;
+   height: 0.30rem;
+   background-color: black;
+   border-radius: 5rem;
+}
+
+.form-box {
+   background-color: white;
+   display: grid;
+   justify-self: end;
+   flex-direction: column;
+   width: 450px;
+   max-height: 700px;
+   padding-left: 1.5rem;
+   padding-top: 0;
+}
+
+h3 {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-bottom: 0;
+}
+
+p {
+   text-align: center;
+}
+
+label {
+   font-weight:500;
+   font-size: 0.90rem;
+}
+
+input {
+   height: 50px;
+   width: 415px;
+   padding-left: 15px;
+   font-size: 0.80rem;
+   margin-bottom:0.50rem;
+}
+
+button {
+   height: 50px;
+   width:435px;
+   padding-left: 0;
+   background:#26A69A;
+   border: none;
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: #fff;
+   border-radius: 5px;
+   transition: all 500ms;
+   cursor: pointer;
+   margin-left: -1rem;
+}
