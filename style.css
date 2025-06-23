@@ -155,8 +155,6 @@ button {
    margin-bottom: 0;
 }
 
-/* Mobile Responsiveness */
-
 
 @media (max-width: 768px) {
 body{
@@ -175,7 +173,6 @@ body{
 .left {
    display: flex;
    flex-direction: column;
-   width:500px;
    padding: 5 1 5 1;
    gap:2rem;
 }
@@ -209,17 +206,21 @@ h2 {
 label {
    font-weight:500;
    font-size: 0.95rem;
-   margin-bottom: 1rem;
-   margin-left:1rem;
+   margin-bottom: 0.50rem;
+   margin-left:2.5rem;
 }
 
 input {
    height: 50px;
-   width: 470px;
+   width: 450px;
    padding-left: 15px;
    font-size: 0.80rem;
-   margin-bottom:0.50rem;
-   margin-left:1rem;
+   margin-left:2.5rem;
+}
 
- }
+button {
+   height: 50px;
+   width:470px;
+   margin-left:2rem;
+}
 }
